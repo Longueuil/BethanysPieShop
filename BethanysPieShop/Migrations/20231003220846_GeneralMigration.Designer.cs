@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BethanysPieShop.Migrations
 {
     [DbContext(typeof(BethanysPieShopDbContext))]
-    [Migration("20231003212011_AddShoppingCartItemMigration")]
-    partial class AddShoppingCartItemMigration
+    [Migration("20231003220846_GeneralMigration")]
+    partial class GeneralMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
